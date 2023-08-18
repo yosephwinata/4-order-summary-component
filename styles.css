@@ -1,0 +1,116 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/pattern-background-desktop.svg");
+}
+
+.card {
+  width: 45rem;
+  height: 69.7rem;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+}
+
+.hero {
+  width: 100%;
+}
+
+.card-content {
+  padding: 4.5rem 4.8rem 4.8rem 4.8rem;
+}
+
+.heading-primary {
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+
+.order-summary {
+  margin-bottom: 1.7rem;
+}
+
+.description {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 2rem;
+}
+
+.cart {
+  background-color: hsl(225, 100%, 98%);
+  height: 9.8rem;
+  padding: 2.5rem 2.4rem;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3.2rem;
+}
+
+.price-group {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.annual {
+  font-weight: 700;
+}
+
+.price {
+  color: hsl(224, 23%, 55%);
+}
+
+.btn-change:link,
+.btn-change:visited {
+  margin-left: auto;
+  font-size: 1.4rem;
+  color: hsl(245, 75%, 52%);
+}
+
+.btn-change:hover,
+.btn-change:active {
+  color: rgba(118, 108, 241, 1);
+  text-decoration: none;
+}
+
+.btn-payment:link,
+.btn-payment:visited {
+  display: block;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  padding: 1.5rem 10.2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-bottom: 3.2rem;
+  box-shadow: 0 1rem 2rem hsl(245, 78%, 84%);
+}
+
+.btn-payment:hover,
+.btn-payment:active {
+  background-color: rgba(118, 108, 241, 1);
+}
+
+.btn-cancel:link,
+.btn-cancel:visited {
+  display: block;
+  font-size: 1.5rem;
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+.btn-cancel:hover,
+.btn-cancel:active {
+  color: #000;
+}

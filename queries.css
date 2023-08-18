@@ -1,0 +1,14 @@
+/**************************/
+/* BELOW 576px */
+/**************************/
+@media (max-width: 36em) {
+  html,
+  body {
+    height: auto;
+    background-image: url("images/pattern-background-mobile.svg");
+  }
+
+  .card {
+    margin: 7.1rem 2.4rem 0 2.4rem;
+  }
+}
